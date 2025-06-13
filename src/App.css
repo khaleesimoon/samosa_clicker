@@ -1,9 +1,63 @@
+
+.samosa{
+  height: 15em;
+  padding: 1.5em;
+  margin: 0 auto;
+  text-align: center;
+}
+.container {
+  margin-top: 50px;
+  display: flex;
+}
+.upgrade{
+  border: 1px solid rgba(153, 153, 153, .497);
+  border-radius: ;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  margin-right: 25px;
+  width: 200px;
+  line-height: 0.5;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid palevioletred;
+  padding: 0.3em 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #cd8a43;
+  color:  rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+  margin-top: 10px;
+}
+body {
+  cursor: url('https://cdn-icons-png.flaticon.com/32/545/545680.png'), auto;
+  text-align: center;
+}
+/* Change Size of Samosa on Hover and Click */
+.samosa:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.samosa:active{
+  transform: scale(0.95);
+}
+
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
+
+
+
+/* OLD CONTENT: 
+
 
 .logo {
   height: 6em;
@@ -39,4 +93,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
